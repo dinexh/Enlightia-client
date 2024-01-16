@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: ;
+    color: #000;
+    background:fixed;
+    background-color: beige;
+}
+.rt-heading{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.student-profile .card {
+    border-radius: 10px;
+}
+.ScriptHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card shadow-sm{
+    box-shadow: 5px 5px 5px 5px;
+}
+button{
+    text-decoration: none;
+    color:black;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+.col-lg-4{
+    border-radius: 10px;
+    background-color: tr;
+}
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}

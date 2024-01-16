@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.one{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 40%;
+}
+button{
+    height: 8vh;
+    width:150px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
